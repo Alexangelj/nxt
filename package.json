@@ -1,0 +1,33 @@
+{
+  "name": "nxt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "template",
+    "typescript",
+    "nextjs",
+    "react"
+  ],
+  "dependencies": {
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.3.3",
+    "@types/react": "18.2.14",
+    "prettier": "^2.8.8",
+    "typescript": "5.1.6"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
